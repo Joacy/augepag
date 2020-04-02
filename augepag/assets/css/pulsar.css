@@ -1,0 +1,20 @@
+@-webkit-keyframes pulsar {
+  0% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7); }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7); } }
+@keyframes pulsar {
+  0% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7); }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7); } }

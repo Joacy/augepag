@@ -1,0 +1,90 @@
+header nav.navbar {
+  background: rgba(18, 61, 136, 0.3);
+  padding: 5px 15px; }
+  header nav.navbar a.navbar-brand img {
+    width: 80px;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain; }
+  header nav.navbar button.navbar-toggler {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    outline: none; }
+    header nav.navbar button.navbar-toggler span.navbar-toggler-icon i {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-size: 30px;
+      color: white; }
+  header nav.navbar ul.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 100%; }
+    header nav.navbar ul.navbar-nav li.nav-item {
+      padding: 0;
+      margin-left: 25px; }
+      header nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+        border-radius: 4px;
+        padding: 5px 10px;
+        border: 1px solid transparent;
+        color: white;
+        font-size: 16px;
+        font-weight: 400; }
+      header nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+        border: 1px solid white;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s; }
+    header nav.navbar ul.navbar-nav li.nav-item.active a.nav-link {
+      border: 1px solid white; }
+
+#header.bg-fixed nav.navbar {
+  background: #123d88;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s; }
+
+@media screen and (max-width: 991px) {
+  header nav.navbar .navbar-collapse {
+    margin-top: 25px; }
+  header nav.navbar ul.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 100%; }
+    header nav.navbar ul.navbar-nav li.nav-item {
+      padding: 5px;
+      margin-left: 0px; }
+      header nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+        border-radius: 4px;
+        padding: 10px;
+        border: none;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400; }
+      header nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+        background: #ffffff;
+        color: #123d88;
+        border: none;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s; }
+    header nav.navbar ul.navbar-nav li.nav-item.active a.nav-link {
+      background: #ffffff;
+      color: #123d88;
+      border: none; } }

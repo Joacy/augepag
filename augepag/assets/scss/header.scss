@@ -1,0 +1,112 @@
+header {
+  nav.navbar {
+    background: rgba(#123d88, 0.3);
+    padding: 5px 15px;
+
+    a.navbar-brand {
+      img {
+        width: 80px;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+
+    button.navbar-toggler {
+      background: transparent;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      outline: none;
+
+      span.navbar-toggler-icon {
+        i {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 30px;
+          color: white;
+        }
+      }
+    }
+
+    ul.navbar-nav {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+
+      li.nav-item {
+        padding: 0;
+        margin-left: 25px;
+
+        a.nav-link {
+          border-radius: 4px;
+          padding: 5px 10px;
+          border: 1px solid transparent;
+          color: white;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        a.nav-link:hover {
+          border: 1px solid white;
+          transition: 0.5s;
+        }
+      }
+
+      li.nav-item.active {
+        a.nav-link {
+          border: 1px solid white;
+        }
+      }
+    }
+  }
+}
+
+#header.bg-fixed {
+  nav.navbar {
+    background: #123d88;
+    transition: 0.7s;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  header {
+    nav.navbar {
+      .navbar-collapse {
+        margin-top: 25px;
+      }
+      ul.navbar-nav {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+
+        li.nav-item {
+          padding: 5px;
+          margin-left: 0px;
+
+          a.nav-link {
+            border-radius: 4px;
+            padding: 10px;
+            border: none;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+          }
+          a.nav-link:hover {
+            background: #ffffff;
+            color: #123d88;
+            border: none;
+            transition: 0.5s;
+          }
+        }
+
+        li.nav-item.active {
+          a.nav-link {
+            background: #ffffff;
+            color: #123d88;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

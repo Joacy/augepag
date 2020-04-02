@@ -1,0 +1,20 @@
+.um {
+  margin-bottom: 70px; }
+  .um h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #256be6;
+    text-align: center;
+    margin-bottom: 20px; }
+  .um h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #2f2f35;
+    text-align: center;
+    margin-bottom: 20px; }
+  .um p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c6c6f;
+    line-height: 1.6;
+    text-align: center; }

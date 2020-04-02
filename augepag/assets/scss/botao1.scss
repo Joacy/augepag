@@ -1,0 +1,21 @@
+a.botao1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid white;
+  border-radius: 50px;
+  line-height: 0.8;
+  text-decoration: none;
+  width: 200px;
+  padding: 20px 25px;
+}
+
+a.botao1:hover {
+  background: white;
+  color: #212529;
+  transition: 0.5s;
+}
