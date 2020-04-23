@@ -1,17 +1,21 @@
-<h1 align="center">
-    <img alt="Augepag" title="#logo" src="gitlab/logo-augepag.png" width="100px" />
-</h1>
+<div align="center">
+    <img alt="Augepag" title="#logo" src="gitlab/logo-augepag.png" width="120px" />
+</div>
+<br>
+<hr>
 
-
-<p align="center">
-  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<br>
+<div align="center">
+  <a href="#tecnologias">Tecnologias</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#projeto">Projeto</a>
-</p>
+</div>
+<br>
+<br>
 
-<h4 align="center">
-    <img alt="Home Augepag" title="#home" src="gitlab/augepag.png" width="80%" />
-</h1>
-
+<div align="center">
+    <img alt="Home Augepag" title="#home" src="gitlab/augepag.png" width="100%" />
+</div>
 
 <h2 title='#tecnologias'>
     Tecnologias
